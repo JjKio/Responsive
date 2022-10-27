@@ -1,5 +1,16 @@
-p {
-  /* font-family: "DM Serif Display", serif;
+/* font-family: "DM Serif Display", serif;
         font-family: "Markazi Text", serif;
         font-family: "Ubuntu", sans-serif;*/
+.hero {
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  background: rgba(49, 172, 255, 0.274);
+  padding: 90px;
+  margin: px;
+}
+h1 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 30px;
 }
