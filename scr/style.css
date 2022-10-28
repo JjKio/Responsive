@@ -1,16 +1,26 @@
 /* font-family: "DM Serif Display", serif;
         font-family: "Markazi Text", serif;
         font-family: "Ubuntu", sans-serif;*/
+
+body {
+  text-align: center;
+}
 .hero {
   font-family: "DM Serif Display", serif;
-  text-align: center;
+margin: 0 auto;
   background: rgba(49, 172, 255, 0.274);
-  padding: 90px;
-  margin: px;
+  padding: 80px;
+  
 }
 h1 {
   font-size: 60px;
 }
 h3 {
   font-size: 30px;
+}
+.index-links {
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
 }
