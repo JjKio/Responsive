@@ -18,24 +18,26 @@ h1 {
 h3 {
   font-size: 30px;
 }
+
+.head-painter {
+}
 .index-links {
   display: flex;
   justify-content: space-evenly;
   color: black;
   font-size: 20px;
   font-weight: normal;
-  text-decoration: none;
 }
-.link-home {
-  text-decoration: underline;
-}
+
 .info-home {
+  line-height: 40px;
+  text-align: justify;
   display: flex;
-  justify-content: center;
-  margin: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
   padding: 10px 40px;
-  font-family: "Markazi Text", serif;
-  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
 }
 .index-blue {
   height: auto;
@@ -47,8 +49,26 @@ h3 {
   padding-bottom: 25px;
 }
 
+.about-links {
+  color: aqua;
+}
+
 img {
   box-shadow: var(--box-shadow);
+}
+.about-content {
+  padding: 25px;
+  margin: 0 auto;
+}
+.figure-about {
+  max-width: 90%;
+  padding: 20px;
+}
+.about-info {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: justify;
+  font-family: "Ubuntu", sans-serif;
 }
 
 @media (max-width: 493px) {
@@ -58,12 +78,18 @@ img {
   }
   .info-home {
     padding: 10px;
-    margin: 0 auto;
+    margin: 25px;
     justify-content: right;
   }
 
   .index-blue {
     max-width: 80%;
+  }
+  .about-head {
+    padding-top: 50px;
+  }
+  .head-painter {
+    padding-top: 50px 
   }
 }
 
