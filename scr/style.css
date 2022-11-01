@@ -89,7 +89,11 @@ img {
     padding-top: 50px;
   }
   .head-painter {
-    padding-top: 50px 
+    padding-top: 50px;
+  }
+  .about-info {
+    padding: 10px;
+    margin-top: 2s0px;
   }
 }
 
