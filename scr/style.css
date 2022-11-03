@@ -95,6 +95,18 @@ img {
     padding: 10px;
     margin-top: 2s0px;
   }
+  .art-head {
+    padding: 50px;
+  }
+}
+.art-head {
+  margin-top: -30px;
+  font-family: "Markazi Text", serif;
+  font-size: 50px;
+}
+.image-grid {
+  margin: 0 100px;
+  padding: 0 100px;
 }
 
 /* font-family: "DM Serif Display",
