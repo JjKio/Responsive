@@ -19,8 +19,6 @@ h3 {
   font-size: 30px;
 }
 
-.head-painter {
-}
 .index-links {
   display: flex;
   justify-content: space-evenly;
@@ -100,6 +98,10 @@ img {
   }
   .image-grid {
   }
+
+  .contact-wrap {
+    padding-top: 90px;
+  }
 }
 .art-head {
   margin-top: -30px;
@@ -115,6 +117,23 @@ img {
 
 h6 {
   font-size: 30px;
+}
+
+.contact-wrap {
+  font-family: "Markazi Text", serif;
+  margin-top: -50px;
+}
+
+.contact-wrap h3 {
+  font-size: 40px;
+}
+.contact-wrap p {
+  font-size: 35px;
+}
+
+.contact-wrap a {
+  text-decoration: none;
+  color: rgba(17, 54, 78, 0.863);
 }
 
 /* font-family: "DM Serif Display",
