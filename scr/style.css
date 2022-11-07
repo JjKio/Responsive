@@ -18,7 +18,6 @@ nav li {
   list-style: none;
 }
 
-
 h1 {
   font-size: 60px;
 }
@@ -30,6 +29,10 @@ h3 {
   color: black;
   font-size: 20px;
   font-weight: normal;
+}
+
+.index-links:hover {
+  color: rgba(39, 117, 168, 0.445);
 }
 
 .head-painter {
